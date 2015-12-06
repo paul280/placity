@@ -1,0 +1,13 @@
+{
+  "name": "BlankCordovaApp1",
+  "dependencies": { },
+  "description": "",
+  "main": "",
+  "moduleType": [ ],
+  "license": "MIT",
+  "homepage": "",
+  "install": {
+  "path": "lib"
+}
+}
+
