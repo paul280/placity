@@ -1,0 +1,8 @@
+﻿<a href="#/.." class="btn btn-primary btn-sm">Zurück</a>
+<div>
+    {{geolocation}}
+</div>
+<div ng-repeat="button in buttons" onload="getPos()">
+    <!--   -.-    -->
+    <a class="{{button.class}}" ng-click="getPos()">{{button.value}}</a>    
+</div>

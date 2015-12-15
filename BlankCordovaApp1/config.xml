@@ -8,6 +8,7 @@
   <vs:features />
   <preference name="SplashScreen" value="screen" />
   <preference name="windows-target-version" value="8.1" />
+  <preference name="Fullscreen" value="true" />
   <!-- Support for Cordova 5.0.0 plugin system -->
   <plugin name="cordova-plugin-whitelist" version="1" />
   <allow-intent href="http://*/*" />
@@ -106,7 +107,7 @@
   </platform>
   <vs:plugin name="cordova-plugin-device" version="1.1.0" />
   <preference name="android-minSdkVersion" value="16" />
-  <preference name="android-maxSdkVersion" value="22" />
+  <preference name="android-maxSdkVersion" value="30" />
   <preference name="android-targetSdkVersion" value="16" />
   <preference name="ShowTitle" value="True" />
   <preference name="KeepRunning" value="True" />
@@ -115,4 +116,7 @@
   <access origin="view/*" />
   <access origin="scripts/*" />
   <vs:plugin name="cordova-plugin-vibration" version="2.0.0" />
+  <vs:plugin name="cordova-plugin-dialogs" version="1.2.0" />
+  <vs:plugin name="cordova-plugin-file" version="3.0.0" />
+  <vs:plugin name="cordova-plugin-geolocation" version="1.0.1" />
 </widget>

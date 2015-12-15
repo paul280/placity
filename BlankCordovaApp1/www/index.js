@@ -2,16 +2,26 @@
 // http://go.microsoft.com/fwlink/?LinkID=397704
 // So debuggen Sie Code beim Seitenladen in Ripple oder auf Android-Geräten/-Emulatoren: Starten Sie die App, legen Sie Haltepunkte fest, 
 // und führen Sie dann "window.location.reload()" in der JavaScript-Konsole aus.
-(function () {
-    "use strict";
-
+//(function () {
+//    "use strict";
+   
     document.addEventListener( 'deviceready', onDeviceReady.bind( this ), false );
 
     function onDeviceReady() {
         // Verarbeiten der Cordova-Pause- und -Fortsetzenereignisse
         document.addEventListener( 'pause', onPause.bind( this ), false );
-        document.addEventListener( 'resume', onResume.bind( this ), false );
+        document.addEventListener('resume', onResume.bind(this), false);
+ 
+        navigator.vibrate(22);
+        //navigator.notification.alert(
+        //    'You are the winner!',  // message
+        //    alertDismissed,         // callback
+        //    'Game Over',            // title
+        //    'Done'                  // buttonName
+        //);
+
         
+
         // TODO: Cordova wurde geladen. Führen Sie hier eine Initialisierung aus, die Cordova erfordert.
     };
 
@@ -24,7 +34,10 @@
     };
     
 
+    function alertDismissed() {
+        // do something
+    }
 
    
-});
+//});
 
