@@ -119,4 +119,11 @@
   <vs:plugin name="cordova-plugin-dialogs" version="1.2.0" />
   <vs:plugin name="cordova-plugin-file" version="3.0.0" />
   <vs:plugin name="cordova-plugin-geolocation" version="1.0.1" />
+  <vs:plugin name="phonegap-plugin-barcodescanner" version="4.1.0" src="https://github.com/phonegap/phonegap-plugin-barcodescanner.git" />
+  <vs:platformSpecificValues>
+    <vs:platformSpecificWidget platformName="windows" id="placity" version="0.0.1.7">
+      <vs:name>Placity</vs:name>
+    </vs:platformSpecificWidget>
+  </vs:platformSpecificValues>
+  <access />
 </widget>

@@ -72,7 +72,7 @@ controllers.buttons.standort = [
     {
         "value": "Aktualisieren",
         "class": "btn btn-primary btn-sm",
-        "ng-click": "getPos()"
+      
     }
 ];
 
@@ -115,16 +115,19 @@ controllers.controller("optionsCtrl", ['$scope', function ($scope) {
 }]);
 
 controllers.controller("standortCtrl", ['$scope', function ($scope) {
-   
-    $scope.buttons = controllers.buttons.standort;
-    $scope.geolocation = ".......";
-  //  $scope.getPos();
+    var vm = this;
+    vm.buttons = controllers.buttons.standort;
+    vm.geolocation = ".......";
+    vm.getPos = getPos;
+
+    getPos();
+
     // onSuccess Callback
     // This method accepts a Position object, which contains the
     // current GPS coordinates
     //
-    var onSucces = function (position) {
-        $scope.geolocation = 'Latitude: ' + position.coords.latitude + '\n' +
+    function onSucces(position) {
+        vm.geolocation = 'Latitude: ' + position.coords.latitude + '\n' +
           'Longitude: ' + position.coords.longitude + '\n' +
           'Altitude: ' + position.coords.altitude + '\n' +
           'Accuracy: ' + position.coords.accuracy + '\n' +
@@ -136,12 +139,36 @@ controllers.controller("standortCtrl", ['$scope', function ($scope) {
     // onError Callback receives a PositionError object
     //
     function onError(error) {
-        $scope.geolocation = 'code: ' + error.code + '\n' +
+        vm.geolocation = 'code: ' + error.code + '\n' +
               'message: ' + error.message + '\n';
     };
 
-    $scope.getPos = function () {
+    function getPos() {
         navigator.geolocation.getCurrentPosition(onSucces, onError);
-    }
+    };
+    
 }]);
-var faxen = {};
+
+
+controllers.controller('ScanCtrl', ['$scope', function ($scope) {
+    $scope.result = cordova.plugins.barcodeScanner.scan(onSucess, function (error) {
+        return "Scanning failed: " + error ;
+    });
+    console.log($scope.result+"WAWSWAW");
+   
+
+    function onSucess(result) {
+        console.log(result);
+        console.log($scope.result);
+        $scope.result = "We got a barcode\n" +
+               "Result: " + result.text + "\n" +
+               "Format: " + result.format + "\n" +
+               "Cancelled: " + result.cancelled;
+        //alert(vm.result);
+        console.log($scope.result);
+       // vm.result = "gaaaay!!!";
+        //    console.log(vm.result);
+        return $scope.result;
+    };
+    console.log($scope.result+"wwwwwwwwwwwwww");
+}]);

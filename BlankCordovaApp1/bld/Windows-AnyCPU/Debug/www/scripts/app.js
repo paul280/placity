@@ -10,12 +10,12 @@ placity.config(function ($routeProvider) {
     .when('/Abmelden', { template: '<a href="#/.." class="btn btn-primary btn-sm">Zurück</a>' })
     .when('/Routen', { templateUrl: 'views/routen.html', controller: 'routenCtrl' })
         //Routenmenü
-    .when('/QrScan', { template: '<a href="#/.." class="btn btn-primary btn-sm">Zurück</a>' })
+    .when('/QrScan', { templateUrl: 'views/scan.html', controller: 'ScanCtrl', controllerAs: 'vm'})
     .when('/RouteOnline', { template: '<a href="#/.." class="btn btn-primary btn-sm">Zurück</a>' })
     .when('/RouteId', { template: '<a href="#/.." class="btn btn-primary btn-sm">Zurück</a>' })
     .when('/RouteLokal', { template: '<a href="#/.." class="btn btn-primary btn-sm">Zurück</a>' })
         //Optionen
-    .when('/Standort', { templateUrl: 'views/standort.html', controller: 'standortCtrl'})
+    .when('/Standort', { templateUrl: 'views/standort.html', controller: 'standortCtrl', controllerAs: 'vm'})
 
     .otherwise({ redirectTo: '/' });
 

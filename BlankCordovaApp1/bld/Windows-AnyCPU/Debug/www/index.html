@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-csp="">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
@@ -17,6 +17,9 @@
     <link href="css/bootstrap.css" rel="stylesheet"/>
     <link href="css/bootstrap-theme.css" rel="stylesheet" />
 
+    <!--für win8 security policy bzgl dynamic code dingens
+    https://github.com/MSOpenTech/winstore-jscompat/blob/master/winstore-jscompat.js -->
+    <!--<script src="scripts/frameworks/winstore-jscompat.js"></script>-->
     <script src="scripts/frameworks/jquery.js"></script>
     <script src="scripts/frameworks/angular.js"></script>
     <script src="scripts/frameworks/angular-route.min.js"></script>
@@ -32,8 +35,8 @@
 
    
 </head>
-<body ng-app="placity">
-    <div ng-view></div>
+<body ng-app="placity" >
+    <div ng-view class="view-frame"></div>
     <!-- Cordova-Verweis, wird Ihrer App beim Erstellen hinzugefügt. -->
     <script src="cordova.js"></script>
     <script src="scripts/platformOverrides.js"></script>

@@ -8,7 +8,7 @@
     <TargetOsDescription>Windows 8.1</TargetOsDescription>
     <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <PackageIdentityName>io.cordova.myapp5db646</PackageIdentityName>
+    <PackageIdentityName>placity</PackageIdentityName>
     <IntermediateOutputPath>B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\bld\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
@@ -18,6 +18,12 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\plugins\phonegap-plugin-barcodescanner\src\windows\lib\bin\Debug\WinRTBarcodeReader.winmd">
+      <PackagePath>WinRTBarcodeReader.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\plugins\phonegap-plugin-barcodescanner\src\windows\lib\bin\Debug\ZXing.winmd">
+      <PackagePath>ZXing.winmd</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\SplashScreen.scale-100.png">
       <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -151,6 +157,12 @@
     <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\plugins\cordova-plugin-vibration\www\vibration.js">
       <PackagePath>www\plugins\cordova-plugin-vibration\www\vibration.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\plugins\phonegap-plugin-barcodescanner\src\windows\BarcodeScannerProxy.js">
+      <PackagePath>www\plugins\phonegap-plugin-barcodescanner\src\windows\BarcodeScannerProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\plugins\phonegap-plugin-barcodescanner\www\barcodescanner.js">
+      <PackagePath>www\plugins\phonegap-plugin-barcodescanner\www\barcodescanner.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\app.js">
       <PackagePath>www\scripts\app.js</PackagePath>
     </AppxPackagedFile>
@@ -171,6 +183,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\frameworks\ui-bootstrap.js">
       <PackagePath>www\scripts\frameworks\ui-bootstrap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\frameworks\winstore-jscompat.js">
+      <PackagePath>www\scripts\frameworks\winstore-jscompat.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\platformOverrides.js">
       <PackagePath>www\scripts\platformOverrides.js</PackagePath>
@@ -210,6 +225,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\views\routen.html">
       <PackagePath>www\views\routen.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\views\scan.html">
+      <PackagePath>www\views\scan.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\views\standort.html">
       <PackagePath>www\views\standort.html</PackagePath>

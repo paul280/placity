@@ -31,6 +31,10 @@
                         {
                             "xml": "<feature name=\"Geolocation\"><param name=\"ios-package\" value=\"CDVLocation\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"BarcodeScanner\"><param name=\"ios-package\" value=\"CDVBarcodeScanner\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -41,12 +45,16 @@
                         {
                             "xml": true,
                             "count": 2
+                        },
+                        {
+                            "xml": false,
+                            "count": 1
                         }
                     ],
                     "AssetsLibrary.framework": [
                         {
                             "xml": false,
-                            "count": 1
+                            "count": 2
                         }
                     ],
                     "MobileCoreServices.framework": [
@@ -56,6 +64,42 @@
                         }
                     ],
                     "CoreLocation.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "libiconv.dylib": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "AVFoundation.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "CoreVideo.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "QuartzCore.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "CoreGraphics.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "CoreImage.framework": [
                         {
                             "xml": false,
                             "count": 1
@@ -79,9 +123,6 @@
         "cordova-plugin-device": {
             "PACKAGE_NAME": "io.cordova.myapp5db646"
         },
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "io.cordova.myapp5db646"
-        },
         "cordova-plugin-vibration": {
             "PACKAGE_NAME": "io.cordova.myapp5db646"
         },
@@ -92,6 +133,12 @@
             "PACKAGE_NAME": "io.cordova.myapp5db646"
         },
         "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "io.cordova.myapp5db646"
+        },
+        "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "io.cordova.myapp5db646"
+        },
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "io.cordova.myapp5db646"
         }
     },
