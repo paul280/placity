@@ -21,3 +21,14 @@ placity.config(function ($routeProvider) {
 
 });
 
+
+//ms-appx wp8 problem umgehen
+placity.config( [
+    '$compileProvider',
+    function( $compileProvider )
+    {   
+        $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|ghttps?|ms-appx|x-wmapp0):/);
+        // Angular before v1.2 uses $compileProvider.urlSanitizationWhitelist(...)
+    }
+]);
+

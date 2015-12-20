@@ -4,11 +4,10 @@
   <description>A blank project that uses Apache Cordova to help you build an app that targets multiple mobile platforms: Android, iOS, Windows, and Windows Phone.</description>
   <author href="http://cordova.io" email="dev@cordova.apache.org">Apache Cordova Team </author>
   <content src="index.html" />
-  <access origin="*" />
   <vs:features />
   <preference name="SplashScreen" value="screen" />
   <preference name="windows-target-version" value="8.1" />
-  <preference name="Fullscreen" value="true" />
+  <preference name="Fullscreen" value="True" />
   <!-- Support for Cordova 5.0.0 plugin system -->
   <plugin name="cordova-plugin-whitelist" version="1" />
   <allow-intent href="http://*/*" />
@@ -113,8 +112,6 @@
   <preference name="KeepRunning" value="True" />
   <preference name="InAppBrowserStorageEnabled" value="True" />
   <preference name="SuppressesIncrementalRendering" value="True" />
-  <access origin="view/*" />
-  <access origin="scripts/*" />
   <vs:plugin name="cordova-plugin-vibration" version="2.0.0" />
   <vs:plugin name="cordova-plugin-dialogs" version="1.2.0" />
   <vs:plugin name="cordova-plugin-file" version="3.0.0" />
@@ -125,5 +122,7 @@
       <vs:name>Placity</vs:name>
     </vs:platformSpecificWidget>
   </vs:platformSpecificValues>
-  <access />
+  <access origin="https://view/*" />
+  <preference name="target-device" value="universal" />
+  <preference name="BackupWebStorage" value="none" />
 </widget>
