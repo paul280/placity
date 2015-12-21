@@ -1,4 +1,5 @@
-﻿<a href="#/.." class="btn btn-primary btn-sm">Zurück</a>
+﻿<script src="../scripts/osm/OpenLayers.debug.js"></script>
+<a href="#/.." class="btn btn-primary btn-sm">Zurück</a>
 <div>
     {{vm.geolocation}}
 </div>
@@ -6,3 +7,11 @@
     <!--   -.-    -->
     <a class="{{button.class}}" ng-click="vm.getPos()">{{button.value}}</a>    
 </div>
+
+<div id="map" style="border: 5px dotted red"></div>
+
+<script>
+    map = new OpenLayers.Map("map");
+    map.addLayer(new OpenLayers.Layer.OSM());
+    map.zoomToMaxExtent();
+</script>

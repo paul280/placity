@@ -6,25 +6,25 @@
     <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
     <TargetOsVersion>6.3</TargetOsVersion>
     <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
-    <SolutionConfiguration>debug|arm</SolutionConfiguration>
-    <PackageArchitecture>arm</PackageArchitecture>
-    <PackageIdentityName>dac74560-9964-11e5-bd97-29ecc2352383</PackageIdentityName>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>0b010530-a7df-11e5-be0c-a9e774c5f5a8</PackageIdentityName>
     <IntermediateOutputPath>B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\phone\bld\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\phone\debug\arm\AppxManifest.xml">
+    <AppXManifest Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\phone\debug\anycpu\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\plugins\cordova-plugin-vibration\src\windows\Vibration\bin\ARM\Debug\Vibration.winmd">
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\plugins\cordova-plugin-vibration\src\windows\Vibration\bin\Debug\Vibration.winmd">
       <PackagePath>Vibration.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\plugins\phonegap-plugin-barcodescanner\src\windows\lib\bin\ARM\Debug\WinRTBarcodeReader.winmd">
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\plugins\phonegap-plugin-barcodescanner\src\windows\lib\bin\Debug\WinRTBarcodeReader.winmd">
       <PackagePath>WinRTBarcodeReader.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\plugins\phonegap-plugin-barcodescanner\src\windows\lib\bin\ARM\Debug\ZXing.winmd">
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\plugins\phonegap-plugin-barcodescanner\src\windows\lib\bin\Debug\ZXing.winmd">
       <PackagePath>ZXing.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\SplashScreen.scale-100.png">
@@ -82,6 +82,171 @@
     <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Wide310x150Logo.scale-240.png">
       <PackagePath>images\Wide310x150Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\cloud-popup-relative.png">
+      <PackagePath>www\scripts\osm\img\cloud-popup-relative.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\drag-rectangle-off.png">
+      <PackagePath>www\scripts\osm\img\drag-rectangle-off.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\drag-rectangle-on.png">
+      <PackagePath>www\scripts\osm\img\drag-rectangle-on.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\east-mini.png">
+      <PackagePath>www\scripts\osm\img\east-mini.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\layer-switcher-maximize.png">
+      <PackagePath>www\scripts\osm\img\layer-switcher-maximize.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\layer-switcher-minimize.png">
+      <PackagePath>www\scripts\osm\img\layer-switcher-minimize.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\marker-blue.png">
+      <PackagePath>www\scripts\osm\img\marker-blue.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\marker-gold.png">
+      <PackagePath>www\scripts\osm\img\marker-gold.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\marker-green.png">
+      <PackagePath>www\scripts\osm\img\marker-green.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\marker.png">
+      <PackagePath>www\scripts\osm\img\marker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\measuring-stick-off.png">
+      <PackagePath>www\scripts\osm\img\measuring-stick-off.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\measuring-stick-on.png">
+      <PackagePath>www\scripts\osm\img\measuring-stick-on.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\north-mini.png">
+      <PackagePath>www\scripts\osm\img\north-mini.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\panning-hand-off.png">
+      <PackagePath>www\scripts\osm\img\panning-hand-off.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\panning-hand-on.png">
+      <PackagePath>www\scripts\osm\img\panning-hand-on.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\slider.png">
+      <PackagePath>www\scripts\osm\img\slider.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\south-mini.png">
+      <PackagePath>www\scripts\osm\img\south-mini.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\west-mini.png">
+      <PackagePath>www\scripts\osm\img\west-mini.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\zoom-minus-mini.png">
+      <PackagePath>www\scripts\osm\img\zoom-minus-mini.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\zoom-plus-mini.png">
+      <PackagePath>www\scripts\osm\img\zoom-plus-mini.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\zoom-world-mini.png">
+      <PackagePath>www\scripts\osm\img\zoom-world-mini.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\zoombar.png">
+      <PackagePath>www\scripts\osm\img\zoombar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\add_point_off.png">
+      <PackagePath>www\scripts\osm\theme\default\img\add_point_off.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\add_point_on.png">
+      <PackagePath>www\scripts\osm\theme\default\img\add_point_on.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\drag-rectangle-off.png">
+      <PackagePath>www\scripts\osm\theme\default\img\drag-rectangle-off.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\drag-rectangle-on.png">
+      <PackagePath>www\scripts\osm\theme\default\img\drag-rectangle-on.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\draw_line_off.png">
+      <PackagePath>www\scripts\osm\theme\default\img\draw_line_off.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\draw_line_on.png">
+      <PackagePath>www\scripts\osm\theme\default\img\draw_line_on.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\draw_point_off.png">
+      <PackagePath>www\scripts\osm\theme\default\img\draw_point_off.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\draw_point_on.png">
+      <PackagePath>www\scripts\osm\theme\default\img\draw_point_on.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\draw_polygon_off.png">
+      <PackagePath>www\scripts\osm\theme\default\img\draw_polygon_off.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\draw_polygon_on.png">
+      <PackagePath>www\scripts\osm\theme\default\img\draw_polygon_on.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\editing_tool_bar.png">
+      <PackagePath>www\scripts\osm\theme\default\img\editing_tool_bar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\move_feature_off.png">
+      <PackagePath>www\scripts\osm\theme\default\img\move_feature_off.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\move_feature_on.png">
+      <PackagePath>www\scripts\osm\theme\default\img\move_feature_on.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\navigation_history.png">
+      <PackagePath>www\scripts\osm\theme\default\img\navigation_history.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\pan-panel-NOALPHA.png">
+      <PackagePath>www\scripts\osm\theme\default\img\pan-panel-NOALPHA.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\pan-panel.png">
+      <PackagePath>www\scripts\osm\theme\default\img\pan-panel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\panning-hand-off.png">
+      <PackagePath>www\scripts\osm\theme\default\img\panning-hand-off.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\panning-hand-on.png">
+      <PackagePath>www\scripts\osm\theme\default\img\panning-hand-on.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\pan_off.png">
+      <PackagePath>www\scripts\osm\theme\default\img\pan_off.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\pan_on.png">
+      <PackagePath>www\scripts\osm\theme\default\img\pan_on.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\remove_point_off.png">
+      <PackagePath>www\scripts\osm\theme\default\img\remove_point_off.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\remove_point_on.png">
+      <PackagePath>www\scripts\osm\theme\default\img\remove_point_on.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\ruler.png">
+      <PackagePath>www\scripts\osm\theme\default\img\ruler.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\save_features_off.png">
+      <PackagePath>www\scripts\osm\theme\default\img\save_features_off.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\save_features_on.png">
+      <PackagePath>www\scripts\osm\theme\default\img\save_features_on.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\view_next_off.png">
+      <PackagePath>www\scripts\osm\theme\default\img\view_next_off.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\view_next_on.png">
+      <PackagePath>www\scripts\osm\theme\default\img\view_next_on.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\view_previous_off.png">
+      <PackagePath>www\scripts\osm\theme\default\img\view_previous_off.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\view_previous_on.png">
+      <PackagePath>www\scripts\osm\theme\default\img\view_previous_on.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\zoom-panel-NOALPHA.png">
+      <PackagePath>www\scripts\osm\theme\default\img\zoom-panel-NOALPHA.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\zoom-panel.png">
+      <PackagePath>www\scripts\osm\theme\default\img\zoom-panel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\cordova.js">
       <PackagePath>www\cordova.js</PackagePath>
@@ -212,6 +377,18 @@
     <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\frameworks\winstore-jscompat.js">
       <PackagePath>www\scripts\frameworks\winstore-jscompat.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\OpenLayers.debug.js">
+      <PackagePath>www\scripts\osm\OpenLayers.debug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\OpenLayers.js">
+      <PackagePath>www\scripts\osm\OpenLayers.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\OpenLayers.mobile.debug.js">
+      <PackagePath>www\scripts\osm\OpenLayers.mobile.debug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\OpenLayers.mobile.js">
+      <PackagePath>www\scripts\osm\OpenLayers.mobile.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\platformOverrides.js">
       <PackagePath>www\scripts\platformOverrides.js</PackagePath>
     </AppxPackagedFile>
@@ -229,6 +406,30 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\css\index.css">
       <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\google.css">
+      <PackagePath>www\scripts\osm\theme\default\google.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\google.tidy.css">
+      <PackagePath>www\scripts\osm\theme\default\google.tidy.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\ie6-style.css">
+      <PackagePath>www\scripts\osm\theme\default\ie6-style.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\ie6-style.tidy.css">
+      <PackagePath>www\scripts\osm\theme\default\ie6-style.tidy.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\style.css">
+      <PackagePath>www\scripts\osm\theme\default\style.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\style.mobile.css">
+      <PackagePath>www\scripts\osm\theme\default\style.mobile.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\style.mobile.tidy.css">
+      <PackagePath>www\scripts\osm\theme\default\style.mobile.tidy.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\style.tidy.css">
+      <PackagePath>www\scripts\osm\theme\default\style.tidy.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\images\P+Slogan.svg">
       <PackagePath>www\images\P+Slogan.svg</PackagePath>
@@ -263,10 +464,22 @@
     <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\frameworks\angular-route.min.js.map">
       <PackagePath>www\scripts\frameworks\angular-route.min.js.map</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\img\blank.gif">
+      <PackagePath>www\scripts\osm\img\blank.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\blank.gif">
+      <PackagePath>www\scripts\osm\theme\default\img\blank.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\close.gif">
+      <PackagePath>www\scripts\osm\theme\default\img\close.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\osm\theme\default\img\overview_replacement.gif">
+      <PackagePath>www\scripts\osm\theme\default\img\overview_replacement.gif</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\phone\debug\arm\resources.pri">
+    <AppxPackagedFile Include="B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\phone\debug\anycpu\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

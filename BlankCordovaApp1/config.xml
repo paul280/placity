@@ -126,4 +126,7 @@
   <access origin="https://view/*" />
   <preference name="target-device" value="universal" />
   <preference name="BackupWebStorage" value="none" />
+  <access origin="https://scripts/frameworks/*" />
+  <access origin="https://scripts/osm/*" />
+  <access origin="https://scripts/*" />
 </widget>

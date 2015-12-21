@@ -17,7 +17,7 @@ placity.config(function ($routeProvider) {
         //Optionen
     .when('/Standort', { templateUrl: 'views/standort.html', controller: 'standortCtrl', controllerAs: 'vm'})
 
-  //  .otherwise({ redirectTo: '/' });
+   .otherwise({ redirectTo: '/' });
 //testddfdffd
 });
 

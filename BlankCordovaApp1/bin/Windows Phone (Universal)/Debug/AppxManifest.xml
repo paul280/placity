@@ -7,11 +7,11 @@
 
     Weitere Informationen zu Paketmanifestdateien finden Sie unter http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="placity" Publisher="CN=$username$" Version="0.0.1.7" ProcessorArchitecture="arm" />
-  <mp:PhoneIdentity PhoneProductId="dac74560-9964-11e5-bd97-29ecc2352383" PhonePublisherId="db093ed5-53b1-45f7-af72-751e8f36ab80" />
+  <Identity Name="placity" Publisher="CN=$username$" Version="0.0.1.7" ProcessorArchitecture="neutral" />
+  <mp:PhoneIdentity PhoneProductId="0b010530-a7df-11e5-be0c-a9e774c5f5a8" PhonePublisherId="db093ed5-53b1-45f7-af72-751e8f36ab80" />
   <Properties>
     <DisplayName>Placity</DisplayName>
-    <PublisherDisplayName>Apache Cordova Team</PublisherDisplayName>
+    <PublisherDisplayName>FH Bingen Proj SS15</PublisherDisplayName>
     <Logo>images\StoreLogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -23,7 +23,7 @@
   </Resources>
   <Applications>
     <Application Id="io.cordova.myapp5db646" StartPage="www/index.html">
-      <m3:VisualElements BackgroundColor="transparent" Description="CordovaApp" DisplayName="BlankCordovaApp1" ForegroundText="light" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
+      <m3:VisualElements BackgroundColor="transparent" Description="CordovaApp" DisplayName="Placity" ForegroundText="light" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
         <m3:DefaultTile Square71x71Logo="images\Square71x71Logo.png" Wide310x150Logo="images\Wide310x150Logo.png">
           <m3:ShowNameOnTiles>
             <m3:ShowOn Tile="square150x150Logo" />
@@ -34,6 +34,9 @@
       </m3:VisualElements>
       <ApplicationContentUriRules>
         <Rule Match="https://view/*" Type="include" />
+        <Rule Match="https://scripts/frameworks/*" Type="include" />
+        <Rule Match="https://scripts/osm/*" Type="include" />
+        <Rule Match="https://scripts/*" Type="include" />
       </ApplicationContentUriRules>
     </Application>
   </Applications>
