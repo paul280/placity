@@ -8,7 +8,7 @@
     <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
     <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <PackageIdentityName>0b010530-a7df-11e5-be0c-a9e774c5f5a8</PackageIdentityName>
+    <PackageIdentityName>091782b0-a7f5-11e5-8a4f-07b20dccdd49</PackageIdentityName>
     <IntermediateOutputPath>B:\workspace\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\phone\bld\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>

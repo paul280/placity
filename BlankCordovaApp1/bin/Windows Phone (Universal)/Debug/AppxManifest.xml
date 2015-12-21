@@ -8,7 +8,7 @@
     Weitere Informationen zu Paketmanifestdateien finden Sie unter http://go.microsoft.com/fwlink/?LinkID=241727
   -->
   <Identity Name="placity" Publisher="CN=$username$" Version="0.0.1.7" ProcessorArchitecture="neutral" />
-  <mp:PhoneIdentity PhoneProductId="0b010530-a7df-11e5-be0c-a9e774c5f5a8" PhonePublisherId="db093ed5-53b1-45f7-af72-751e8f36ab80" />
+  <mp:PhoneIdentity PhoneProductId="091782b0-a7f5-11e5-8a4f-07b20dccdd49" PhonePublisherId="db093ed5-53b1-45f7-af72-751e8f36ab80" />
   <Properties>
     <DisplayName>Placity</DisplayName>
     <PublisherDisplayName>FH Bingen Proj SS15</PublisherDisplayName>
@@ -94,7 +94,7 @@
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2015" />
     <build:Item Name="OperatingSystem" Version="10.0.10586.0 (th2_release.151029-1700)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.24720.0" />
-    <build:Item Name="ProjectGUID" Value="1b143aff-c214-492f-811d-d8b90b1e6639" />
+    <build:Item Name="ProjectGUID" Value="31b67a35-9503-4213-857e-f44eb42ae549" />
     <build:Item Name="MakePri.exe" Version="6.3.9600.17336 (winblue.150226-1500)" />
   </build:Metadata>
 </Package>

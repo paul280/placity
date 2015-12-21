@@ -105,7 +105,6 @@
   <platform name="wp8">
     <splash src="res/screens/wp8/SplashScreenImage.jpg" width="480" height="800" />
   </platform>
-  <vs:plugin name="cordova-plugin-device" version="1.1.0" />
   <preference name="android-minSdkVersion" value="16" />
   <preference name="android-maxSdkVersion" value="30" />
   <preference name="android-targetSdkVersion" value="16" />
@@ -129,4 +128,5 @@
   <access origin="https://scripts/frameworks/*" />
   <access origin="https://scripts/osm/*" />
   <access origin="https://scripts/*" />
+  <vs:plugin name="cordova-plugin-device" version="1.1.0" />
 </widget>
