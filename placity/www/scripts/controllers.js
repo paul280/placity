@@ -80,7 +80,7 @@ console.log(controllers.buttons);
 
 controllers.controller("indexCtrl",['$scope', function ($scope) {
     //deviceready hier noch nicht unbedingt gefeuert
-    $scope.text = "text, junge";
+    $scope.text = "indexCtrl, junge";
     
     $scope.buttons = controllers.buttons.hauptmenu;
  //   console.log($scope.text);
