@@ -3,8 +3,12 @@
   "deletedFilesIos": [],
   "addedPluginsIos": [],
   "deletedPluginsIos": [],
-  "changedFiles": [],
-  "deletedFiles": [],
+  "changedFiles": [
+    "www\\views\\standort.html"
+  ],
+  "deletedFiles": [
+    "www\\views\\els2rdre.svv~"
+  ],
   "addedPlugins": [],
   "deletedPlugins": []
 }

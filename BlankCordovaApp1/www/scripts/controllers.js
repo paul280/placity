@@ -119,8 +119,13 @@ controllers.controller("standortCtrl", ['$scope', function ($scope) {
     vm.buttons = controllers.buttons.standort;
     vm.geolocation = ".......";
     vm.getPos = getPos;
+    vm.map = new OpenLayers.Map("map");
+    vm.map.addLayer(new OpenLayers.Layer.OSM());
+    vm.map.zoomToMaxExtent();
+    vm.lat;
+    vm.lon;
 
-    getPos();
+    //getPos();
 
     // onSuccess Callback
     // This method accepts a Position object, which contains the
@@ -135,6 +140,14 @@ controllers.controller("standortCtrl", ['$scope', function ($scope) {
           'Heading: ' + position.coords.heading + '\n' +
           'Speed: ' + position.coords.speed + '\n' +
           'Timestamp: ' + position.timestamp + '\n';
+        vm.lat = position.coords.latitude;
+        vm.lon = position.coords.longitude;
+       
+        var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
+        var toProjection = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+        var position = new OpenLayers.LonLat(vm.lon, vm.lat).transform(fromProjection, toProjection);
+        var zoom = 15;
+        vm.map.setCenter(position, zoom);
     };
     // onError Callback receives a PositionError object
     //
@@ -166,7 +179,7 @@ controllers.controller('ScanCtrl', ['$scope', function ($scope) {
                "Cancelled: " + result.cancelled;
         //alert(vm.result);
         console.log($scope.result);
-       // vm.result = "gaaaay!!!";
+    
         //    console.log(vm.result);
         return $scope.result;
     };
