@@ -6,7 +6,7 @@ placity.config(function ($routeProvider) {
         //Hauptmenü
     .when('/Optionen', { templateUrl: 'views/options.html', controller: 'optionsCtrl' })
     .when('/Ergebnisse', { template: '<a href="#/.." class="btn btn-primary btn-sm">Zurück</a>' })
-    .when('/Profil', { template: '<a href="#/.." class="btn btn-primary btn-sm">Zurück</a>  <div class="menuButtonDiv"> <div ng-repeat="button in buttons">   <a class="{{button.class}}" href={{button.href}}>{{button.value}}</a>   </div>' })
+    .when('/Profil', { template: '<a href="#/.." class="btn btn-primary btn-sm">Zurück</a>  <div class="menuButtonDiv"> <div ng-repeat="button in buttons">   <a class="{{button.class}}" ng-href={{button.href}}>{{button.value}}</a>   </div>' })
     .when('/Abmelden', { template: '<a href="#/.." class="btn btn-primary btn-sm">Zurück</a>' })
     .when('/Routen', { templateUrl: 'views/routen.html', controller: 'routenCtrl' })
         //Routenmenü
@@ -17,8 +17,8 @@ placity.config(function ($routeProvider) {
         //Optionen
     .when('/Standort', { templateUrl: 'views/standort.html', controller: 'standortCtrl', controllerAs: 'vm'})
 
-    .otherwise({ redirectTo: '/' });
-
+  //  .otherwise({ redirectTo: '/' });
+//testddfdffd
 });
 
 
