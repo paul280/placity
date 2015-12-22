@@ -1235,7 +1235,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 			}
 
 			// Opera 10-11 does not throw on post-comma invalid pseudos
-			div.querySelectorAll("*,:x");
+   		div.querySelectorAll("*,:x");
 			rbuggyQSA.push(",.*:");
 		});
 	}
