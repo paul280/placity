@@ -124,6 +124,9 @@ controllers.controller("standortCtrl", ['$scope', function ($scope) {
     vm.map.zoomToMaxExtent();
     vm.lat;
     vm.lon;
+    vm.markers = new OpenLayers.Layer.Markers("Markers");
+    vm.map.addLayer(vm.markers);
+    
 
     //getPos();
 
@@ -148,6 +151,7 @@ controllers.controller("standortCtrl", ['$scope', function ($scope) {
         var position = new OpenLayers.LonLat(this.lon, this.lat).transform(fromProjection, toProjection);
         var zoom = 15;
         this.map.setCenter(position, zoom);
+        this.markers.addMarker(new OpenLayers.Marker(position));
     };
     // onError Callback receives a PositionError object
     //

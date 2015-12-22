@@ -1,13 +1,30 @@
 {
-  "name": "BlankCordovaApp1",
-  "dependencies": { },
-  "description": "",
-  "main": "",
-  "moduleType": [ ],
+  "name": "Placity",
+  "dependencies": {
+    "angular-route": "~1.4.8",
+    "angular-bootstrap": "~0.14.3",
+    "jquery": "~2.1.4",
+    "videogular": "~1.4.0"
+  },
+  "description": "Placity App",
+  "main": "index.html",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/paul280/placity",
   "install": {
-  "path": "lib"
+    "path": "lib"
+  },
+  "authors": [
+    "paul280 <paulkoch2805@web.de>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
-}
-

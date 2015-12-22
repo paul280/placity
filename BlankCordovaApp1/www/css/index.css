@@ -83,7 +83,7 @@ a.menuButton {
     height: 100%;
 }
 #map:after {
-    content: 'sss';
+    content: '';
     display: block;
     clear: both;
 }
